@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset utf="8">
+        <title>Домашен панел</title>
+    </head>
+    <body>
+        <h1 align="center"><i>Добродеојдовте! Одберете дел од куќата!<i></h1>
+        <nav>
+        <figure><img src="proizvodi-spalna.jpg" width="200" height="190" alt="spalna soba"><figcaption><a href="#spalna"><em>Спална соба</em></a></figcaption></figure>
+        <figure><img src="dnevna.jpg" width="200" height="190" alt="dnevna soba"><figcaption><a href="#dnevna"><em>Дневна соба</em></a></figcaption></figure>
+        <figure><img src="kujna-kujnski-ostrov.jpg" width="200" height="190" alt="kujna"><figcaption><a href="#kujna"><em>Кујна</em></a></figcaption></figure>
+        <figure><img src="gradina.png" width="200" height="190" alt="gradina"><figcaption><a href="gradina.html" target="_blank"><em>Градина</em></a></figcaption></figure>
+        </figure>
+        <p>Нотификации<a href="notifikacii1.html"><img src="notif.jpg" width="30" height="50" alt="izvicnik"></a></p>
+        </nav>
+        <h2 id="spalna"></h2>
+            <table border="2">
+                <caption>Senzori vo spalna</caption>
+                <tr>
+                <td>Прашање</td>
+                <td><bold>Sensor 1-temperatura</bold></td>
+                <td><bold>Sensor 2-Активност</bold></td>
+                <td><bold>Sensor 3-Квалитет на воздух</bold></td>
+                </tr>
+                <tr>
+                <td>Дали е вклучен сензорот?</td>
+                <td>ДА</td>
+                <td>ДА</td>
+                <td>НЕ</td> 
+                </tr>
+                <tr>
+                <td>Дали сакате да го смените тоа?</td>
+                <td>
+                    <form>
+                    <input type="radio" id="DA" name="DA" value="Vklucen">
+                    <label for="DA"> ДА</label><br>
+                    <input type="radio" id="NE" name="DA" value="Isklucen">
+                    <label for="NE"> НЕ</label><br>
+                    </form></td>
+                    <td>
+                    <form>
+                    <input type="radio" id="DA" name="DA" value="Vklucen">
+                    <label for="DA"> ДА</label><br>
+                    <input type="radio" id="NE" name="DA" value="Isklucen">
+                    <label for="NE"> НЕ</label><br>
+                    </form></td>
+                    <td>
+                    <form>
+                    <input type="radio" id="DA" name="DA" value="Vklucen">
+                    <label for="DA"> ДА</label><br>
+                    <input type="radio" id="NE" name="DA" value="Isklucen">
+                    <label for="NE"> НЕ</label><br>
+                    </form></td>
+                    </tr>
+                    <tr>
+                    <td>Battery:</td>
+                    <td>26%</td>
+                    <td>75%</td>
+                    <td>18%</td>
+                    </tr>
+                    </table>
+                    <p>Temp: 22<sup>0</sup>C</p><input type="color" id="good" name="good" value="#10E81B">
+                    <p>Нема детектирано активност</p>
+                    <p>Квалитет на воздух: Добар!</p>
+            <h2 id="dnevna"></h2>
+            <table border="2">
+                <caption>Senzori vo Дневна</caption>
+                <tr>
+                <td>Прашање</td>
+                <td><bold>Sensor 1-temperatura</bold></td>
+                <td><bold>Sensor 2-Активност</bold></td>
+                <td><bold>Sensor 3-Квалитет на воздух</bold></td>
+                </tr>
+                <tr>
+                <td>Дали е вклучен сензорот?</td>
+                <td>НЕ</td>
+                <td>ДА</td>
+                <td>ДА</td> 
+                </tr>
+                <tr>
+                <td>Дали сакате да го смените тоа?</td>
+                <td>
+                    <form>
+                    <input type="radio" id="DA" name="DA" value="Vklucen">
+                    <label for="DA"> ДА</label><br>
+                    <input type="radio" id="NE" name="DA" value="Isklucen">
+                    <label for="NE"> НЕ</label><br>
+                    </form></td>
+                    <td>
+                    <form>
+                    <input type="radio" id="DA" name="DA" value="Vklucen">
+                    <label for="DA"> ДА</label><br>
+                    <input type="radio" id="NE" name="DA" value="Isklucen">
+                    <label for="NE"> НЕ</label><br>
+                    </form></td>
+                    <td>
+                    <form>
+                    <input type="radio" id="DA" name="DA" value="Vklucen">
+                    <label for="DA"> ДА</label><br>
+                    <input type="radio" id="NE" name="DA" value="Isklucen">
+                    <label for="NE"> НЕ</label><br>
+                    </form></td>
+                    </tr>
+                    <tr>
+                    <td>Battery:</td>
+                    <td>57%</td>
+                    <td>32%</td>
+                    <td>98%</td>
+                    </tr>
+                </table>
+                <p>Temp: Не е достапна таа информација </p>
+                <p>Има активност! Има <input type="number" id="quantity" name="quantity" value="4"> луѓе во дневната!</p>
+                <p>Квалитет на воздух: Добар!</p>
+            <h2 id="kujna"></h2>
+            <table border="2">
+                <caption>Senzori vo kujna</caption>
+                <tr>
+                <td>Прашање</td>
+                <td><bold>Sensor 1-temperatura</bold></td>
+                <td><bold>Sensor 2-Активност</bold></td>
+                <td><bold>Sensor 3-Квалитет на воздух</bold></td>
+                </tr>
+                <tr>
+                <td>Дали е вклучен сензорот?</td>
+                <td>ДА</td>
+                <td>НЕ</td>
+                <td>ДА</td> 
+                </tr>
+                <tr>
+                <td>Дали сакате да го смените тоа?</td>
+                <td>
+                    <form>
+                    <input type="radio" id="DA" name="DA" value="Vklucen">
+                    <label for="DA"> ДА</label><br>
+                    <input type="radio" id="NE" name="DA" value="Isklucen">
+                    <label for="NE"> НЕ</label><br>
+                    </form></td>
+                    <td>
+                    <form>
+                    <input type="radio" id="DA" name="DA" value="Vklucen">
+                    <label for="DA"> ДА</label><br>
+                    <input type="radio" id="NE" name="DA" value="Isklucen">
+                    <label for="NE"> НЕ</label><br>
+                    </form></td>
+                    <td>
+                    <form>
+                    <input type="radio" id="DA" name="DA" value="Vklucen">
+                    <label for="DA"> ДА</label><br>
+                    <input type="radio" id="NE" name="DA" value="Isklucen">
+                    <label for="NE"> НЕ</label><br>
+                    </form></td>
+                    </tr>
+                    <tr>
+                    <td>Battery:</td>
+                    <td>61%</td>
+                    <td>0%</td>
+                    <td>72%</td>
+                    </tr>
+            </table>
+            <p>Temp: 29<sup>0</sup>C<input type="color" id="bad" name="bad" value="BA1500"></p>
+            <p>Не е достапна таа информација </p>
+            <p>Квалитет на воздух: Добар!</p>
+        </body>
+
+    </html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset utf="8">
+        <title>Градина</title>
+    </head>
+    <body>
+        <h2 id="gradina"></h2>
+            <table border="2">
+                <caption>Senzori vo gradina</caption>
+                <tr>
+                <td>Прашање</td>
+                <td><bold>Sensor 1-temperatura</bold></td>
+                <td><bold>Sensor 2-Активност</bold></td>
+                <td><bold>Sensor 3-Квалитет на воздух</bold></td>
+                </tr>
+                <tr>
+                <td>Дали е вклучен сензорот?</td>
+                <td>ДА</td>
+                <td>ДА</td>
+                <td>ДА</td> 
+                </tr>
+                <tr>
+                <td>Дали сакате да го смените тоа?</td>
+                <td>
+                    <form>
+                    <input type="radio" id="DA" name="DA" value="Vklucen">
+                    <label for="DA"> ДА</label><br>
+                    <input type="radio" id="NE" name="DA" value="Isklucen">
+                    <label for="NE"> НЕ</label><br>
+                    </form></td>
+                    <td>
+                    <form>
+                    <input type="radio" id="DA" name="DA" value="Vklucen">
+                    <label for="DA"> ДА</label><br>
+                    <input type="radio" id="NE" name="DA" value="Isklucen">
+                    <label for="NE"> НЕ</label><br>
+                    </form></td>
+                    <td>
+                    <form>
+                    <input type="radio" id="DA" name="DA" value="Vklucen">
+                    <label for="DA"> ДА</label><br>
+                    <input type="radio" id="NE" name="DA" value="Isklucen">
+                    <label for="NE"> НЕ</label><br>
+                    </form></td>
+                    </tr>
+                    <tr>
+                    <td>Battery:</td>
+                    <td>57%</td>
+                    <td>32%</td>
+                    <td>98%</td>
+                    </tr>
+                </table>
+                <p>Temp:23<sup>0</sup>C<input type="color" id="good" name="good" value="#10E81B"></p>
+                <p>Нема активност</p>
+                <p>Квалитет на воздух: Добар!</p>
+            
+    </body>
+    </html>
