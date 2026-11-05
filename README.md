@@ -1,2 +1,2 @@
 # WEB-domasni
-prva domasna
+prva domasna i vtora domasna
